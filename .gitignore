@@ -1,0 +1,51 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio-specific
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Windows Form Designer-generated files
+*.Designer.cs
+
+# Backup & temp
+*.bak
+*.tmp
+~$*
+
+# OS & misc
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Rider (если вдруг используешь)
+.idea/
+*.sln.iml
+
+# NuGet packages (если не используешь package restore)
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Logs and coverage
+*.log
+*.coverage
+*.coveragexml
+TestResults/
+
+# Database (если используешь локальный .mdf)
+*.mdf
+*.ldf
+
+# App secrets
+secrets.json
